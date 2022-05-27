@@ -1,0 +1,25 @@
+Log file created at: 2022/02/23 16:00:10
+Running on machine: oneflow-21
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20220223 16:00:10.352324 266217 global.h:36] NewGlobal N7oneflow7EnvDescE
+I20220223 16:00:10.352443 266217 global.h:36] NewGlobal N7oneflow10ProcessCtxE
+I20220223 16:00:10.352452 266217 env_global_objects_scope.cpp:163] using rpc backend: local
+I20220223 16:00:12.191035 266217 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I20220223 16:00:12.191114 266217 global.h:36] NewGlobal N7oneflow12ResourceDescE
+I20220223 16:00:12.259930 266217 global.h:36] NewGlobal N7oneflow2ep21DeviceManagerRegistryE
+I20220223 16:00:12.259970 266217 global.h:36] NewGlobal N7oneflow10ThreadPoolE
+I20220223 16:00:12.261559 266217 global.h:36] NewGlobal N7oneflow16EagerNcclCommMgrE
+I20220223 16:00:12.261569 266217 global.h:36] NewGlobal N7oneflow18CudnnConvAlgoCacheE
+I20220223 16:00:12.261574 266217 global.h:36] NewGlobal N7oneflow2vm19VirtualMachineScopeE
+I20220223 16:00:12.261580 266217 global.h:36] NewGlobal N7oneflow14VirtualMachineE
+I20220223 16:00:12.261857 266217 virtual_machine.cpp:95] transport stream type: N7oneflow2vm13CpuStreamTypeE
+I20220223 16:00:12.261864 266217 virtual_machine.cpp:95] transport stream type: N7oneflow2vm14CudaStreamTypeE
+I20220223 16:00:12.261868 266217 virtual_machine.cpp:95] transport stream type: N7oneflow2vm19AsyncCudaStreamTypeE
+I20220223 16:00:12.262012 266217 global.h:36] NewGlobal N7oneflow27EagerJobBuildAndInferCtxMgrE
+I20220223 16:00:12.262020 266217 global.h:36] NewGlobal N7oneflow12EpollCommNetE
+I20220223 16:00:12.262101 266217 epoll_comm_network.cpp:63] CommNet:Epoll listening on 0.0.0.0:39217
+I20220223 16:00:12.262122 266217 epoll_comm_network.cpp:197] machine 0 sockfd -1
+I20220223 16:00:12.262230 266217 global.h:36] NewGlobal N7oneflow9TransportE
+I20220223 16:00:12.262291 266217 global.h:43] DeleteGlobal N7oneflow17ForeignLockHelperE
+I20220223 16:00:12.262362 266217 global.h:36] NewGlobal N7oneflow25MultiClientSessionContextE
